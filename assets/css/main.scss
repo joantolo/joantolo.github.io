@@ -27,6 +27,45 @@ $masthead-link-color-hover: $primary-color !default;
 $navicon-link-color-hover: $primary-color !default;
 
 // STYLE
+// Menu
+#main {
+  margin-top: 5rem !important;
+}
+.masthead {
+  right: 0;
+  left: 0;
+  position: fixed !important;
+  min-height: 5rem !important;
+  background-image: linear-gradient(#131313FF 0%, #131313CC 60%, #13131300 100%) !important;
+  border: none !important;
+  * {
+    background-color: transparent !important;
+  }
+}
+.masthead__inner-wrap {
+  max-width: 100% !important;
+  padding: 1em 2em !important;
+  .greedy-nav {
+    a {
+      font-weight: 800 !important;
+      transition: color 0.2s !important;
+      &:hover:before {
+        -webkit-transform: scaleX(0) translate3d(0, 0, 0) !important;
+        -ms-transform: scaleX(0) translate3d(0, 0, 0) !important;
+        transform: scaleX(0) translate3d(0, 0, 0) !important;
+      }
+    }
+    .site-title {
+      margin-right: 4.5rem !important;
+      position: fixed !important;
+    }
+    .visible-links {
+      justify-content: flex-start !important;
+      padding-left: 8rem;
+    }
+  }
+}
+
 .custom-home {
   height: calc(100vh - 3em);
   display: flex;

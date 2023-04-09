@@ -30,6 +30,9 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+after_footer_scripts:
+  - /assets/js/custom-after-footer.js
+
 include:
   - _pages
 
