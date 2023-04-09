@@ -88,8 +88,8 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      related: true
+      layout: custom-post
+      show_date: true
   # _pages
   - scope:
       path: "_pages"

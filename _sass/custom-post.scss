@@ -1,0 +1,97 @@
+.custom-post {
+  #main {
+    max-width: 80% !important;
+    margin-top: 3rem !important;
+  }
+  .masthead {
+    background-image: none !important;
+  }
+  header {
+    margin-bottom: 2em;
+  }
+  .page__title {
+    font-size: 2.3em;
+    line-height: 1.4em;
+    margin-bottom: 0.9vw !important;
+  }
+  .page__taxonomy {
+    color: $primary-color;
+    margin: 0 !important;
+    margin-bottom: 0.9vw !important;
+    a {
+      color: $primary-color;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: none !important;
+    }
+    .sep {
+      display: inline-block !important;
+    }
+    strong {
+      display: None;
+    }
+  }
+  .page__date {
+    margin: 0 !important;
+    margin-bottom: 1.8vw !important;
+    color: mix($background-color, white, 40%) !important;
+    strong {
+      display: None;
+    }
+  }
+  .page__content {
+    line-height: 2em;
+    font-size: 0.85em;
+    .content_title {
+      margin: 1em 0;
+      font-weight: 900;
+      font-size: 2.0em;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .page__github {
+    font-family: $global-font-family;
+    font-size: 2em;
+    font-weight: 900;
+    margin: 2em 0;
+    a {
+      margin: 0.2em 0;
+      font-size: 3.5em;
+      display: inline-block;
+      transition: transform 0.2s ease;
+      &:hover {
+        transform: translateY(10px);
+      }
+    }
+  }
+  .page__related {
+    width: calc(100% - 300px);
+    padding-right: 300px;
+    border: none !important;
+  }
+  .pagination {
+    border: none !important;
+    margin-bottom: 2em !important;
+    padding-bottom: 2em !important;
+  }
+  .pagination--pager {
+    background-color: transparent !important;
+    border: solid 1px $primary-color !important;
+    border-radius: 0 !important;
+  }
+  .pagination--pager:hover {
+    color: $primary-color !important;
+    transform: translateY(5px);
+    transition: transform 0.2s ease;
+  }
+  .pagination--pager.disabled {
+    color: mix($background-color, white, 40%) !important;
+    border-color: mix($background-color, $primary-color, 60%) !important;
+  }
+  a:hover {
+    color: $primary-color !important;
+  }
+}
