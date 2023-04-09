@@ -1,0 +1,58 @@
+---
+search: false
+---
+
+@charset "utf-8";
+// FONTS
+$serif              : "Roboto Mono", "PT Serif", serif;
+$sans-serif-narrow  : "Roboto Mono", "PT Serif", serif;
+$global-font-family : $serif;
+$header-font-family : $sans-serif-narrow;
+
+// COLORS
+$custom-secondary-color: #8BEFC3;
+$text-color: white !default;
+$primary-color: #2AFEA2 !default;
+$background-color: #131313 !default;
+
+$footer-background-color: black !default;
+$border-color: $background-color !default;
+
+$link-color: $text-color !default;
+$link-color-visited: $link-color !default;
+$link-color-hover: $primary-color !default;
+
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $primary-color !default;
+$navicon-link-color-hover: $primary-color !default;
+
+// Syntax highlighting
+$base00: #282936;
+$base01: #3a3c4e;
+$base02: #4d4f68;
+$base03: #626483;
+$base04: #62d6e8;
+$base05: #e9e9f4;
+$base06: #f1f2f8;
+$base07: #f7f7fb;
+$base08: #ea51b2;
+$base09: #b45bcf;
+$base0a: #00f769;
+$base0b: #ebff87;
+$base0c: #a1efe4;
+$base0d: #62d6e8;
+$base0e: #b45bcf;
+$base0f: #00f769;
+
+::-moz-selection {
+  color: $background-color !important;
+  background: $primary-color !important;
+}
+
+::selection {
+  color: $background-color !important;
+  background: $primary-color !important;
+}
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
