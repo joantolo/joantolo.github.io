@@ -27,6 +27,17 @@ $masthead-link-color-hover: $primary-color !default;
 $navicon-link-color-hover: $primary-color !default;
 
 // STYLE
+.custom-home {
+  height: calc(100vh - 3em);
+  display: flex;
+  align-items: center;
+  .custom-home-wrap {
+    font-size: 2.6rem !important;
+    padding-bottom: 3em;
+    margin: auto;
+  }
+}
+
 .custom-default {
   #main {
     max-width: 80% !important;
