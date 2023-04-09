@@ -96,6 +96,37 @@ $navicon-link-color-hover: $primary-color !default;
   }
 }
 
+.custom-posts-list {
+  .archive__item-title {
+    margin-top: 2.5em !important;
+    a {
+      font-size: 1.2em !important;
+      text-decoration-line: none !important;
+    }
+  }
+  .page__meta * { // Subitle
+    font-size: 0.7em !important;
+    color: mix($background-color, white, 40%) !important;
+  }
+  p.archive__item-excerpt {
+    font-size: 1em !important;
+    color: mix($background-color, white, 40%) !important;
+  }
+  // Formatting buttons
+  .pagination * {
+    border: none !important;
+  }
+  .pagination .current {
+    color: $primary-color !important;
+    background-color: transparent !important;
+  }
+}
+
+
+.page__footer a:hover {
+  color: $primary-color !important;
+}
+
 // Syntax highlighting
 $base00: #282936;
 $base01: #3a3c4e;
