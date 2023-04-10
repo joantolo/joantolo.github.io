@@ -54,6 +54,7 @@ plugins:
   - jekyll-gist
   - jemoji
   - jekyll-include-cache
+  - jekyll-email-protect
 
 author:
   name   : "First Lastname"
