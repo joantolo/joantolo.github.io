@@ -1,0 +1,18 @@
+.custom-default {
+  #main {
+    max-width: 80% !important;
+  }
+  .page {
+    width: calc(100% - 70px) !important;
+    padding-right: 40% !important;
+  }
+  .page__title {
+    text-decoration-line: underline !important;
+    font-size: 3.0em !important;
+    font-weight: 1000 !important;
+  }
+  .page p {
+    font-size: 1.7rem !important;
+    line-height: 1.8em !important;
+  }
+}
