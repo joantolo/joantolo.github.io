@@ -3,6 +3,38 @@ permalink: /experience/
 title: "EXPERIENCE"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+{% assign date_format = site.data.experience.date_format | default: "%B %Y" %}
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+<div class="custom-experience">
+  <a href="/assets/CV_JoanTorres.pdf" class="menu-cv">Download CV</a>
+
+  <div class="experience__second__title">Laboral and educational background</div>
+
+  {% for experience in site.data.experience.main %}
+  <div class="experience__element">
+    <div class="experience__left">
+      <div class="experience_img">
+        <img src="{{ experience.img }}">
+      </div>
+    </div>
+    <div class="experience__right">
+      <div class="experience__title">
+      {{ experience.title }}, {{ experience.date-start | date: date_format }} - {{ experience.date-end | date: date_format }}
+      </div>
+      <div class="experience__subtitle">{{ experience.subtitle}}</div>
+      <div class="experience__excerpt">{{ experience.excerpt }}</div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="custom-experience">
+  <div class="experience__element">
+    <div class="experience__left"></div>
+    <div class="experience__right">
+      <div class="experience__cv">
+        <a href="/assets/CV_JoanTorres.pdf">Download CV</a>
+      </div>
+    </div>
+  </div>
+</div>

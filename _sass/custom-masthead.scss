@@ -29,6 +29,18 @@
       margin-right: 4.5rem !important;
       position: fixed !important;
     }
+    .menu-cv {
+      position: fixed !important;
+      top: 3.5em;
+      margin: 0 !important;
+      text-decoration: underline !important;
+      font-size: 0.9em !important;
+      font-weight: 1 !important;
+      color: mix($background-color, white, 30%);
+      &:hover {
+        color: $primary-color;
+      }
+    }
     .visible-links {
       justify-content: flex-start !important;
       padding-left: 8rem;

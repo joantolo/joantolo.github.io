@@ -47,6 +47,7 @@ $navicon-link-color-hover: $primary-color !default;
 @import "custom-posts-list";
 @import "custom-post";
 @import "custom-contact";
+@import "custom-experience";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
