@@ -12,6 +12,11 @@ var menuHeight = menu.height();
 menu.css("transition", "all 0.3s ease-out");
 menu.css("top", "0");
 
+// Set cv position and animation
+var menu_cv = $(".menu-cv");
+menu_cv.insertAfter(".site-title");
+menu_cv.hide();
+
 var lastScrollTop = 0;
 $(window).scroll(function() {
 	var currentScrollTop = $(this).scrollTop();
@@ -21,5 +26,8 @@ $(window).scroll(function() {
 	else
 		menu.css("top", "0");
 	
+	if (currentScrollTop > 100)
+		menu_cv.fadeIn(500);
+
 	lastScrollTop = currentScrollTop;
 });

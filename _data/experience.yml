@@ -1,0 +1,36 @@
+date_format: "%B %Y"
+main:
+  - title: "GRAPHICS SOFTWARE ENGINEER"
+    subtitle: "SUSE"
+    img: /assets/images/suse.jpeg
+    date-start: 2021-11-01
+    date-end: Present
+    excerpt: "Collaborating in open source projects like FreeRDP and GNOME. Maintainer of graphics stack packages. Working with the Wayland ecosystem and Mesa."
+
+  - title: "JUNIOR RESEARCHER"
+    subtitle: "Multimodal Simulation Lab (MSLab)"
+    img: /assets/images/mslab.png
+    date-start: 2020-11-01
+    date-end: 2021-01-01
+    excerpt: "Generation of an interactive scene simulating clay. Implementation using Unity with C# and HLSL. Virtual Reality using LeapMotion and STRATOS Explore."
+
+  - title: "MSc IN COMPUTER GRAPHICS, VIRTUAL REALITY AND GAMES"
+    subtitle: "Universidad Rey Juan Carlos (URJC)"
+    img: /assets/images/urjc.png
+    date-start: 2019-09-01
+    date-end: 2021-03-01
+    excerpt: "A very demanding master’s degree that has allowed me to delve into the field of computer graphics learning advanced rendering, comptuer vision, shaders, physical simulations, GPU programming, virtual reality, games, animations, etc. It has been a great experience that has allowed me to specialize more in what I like."
+
+  - title: "EDITON & MOUNTING"
+    subtitle: "Audiovisual Study (TAU), Universidad de Valencia"
+    img: /assets/images/tau.png
+    date-start: 2018-09-01
+    date-end: 2019-01-01
+    excerpt: "Developing a docuseries. Using Adobe Premiere Pro for mounting the series. Design of simple animations and color edition."
+
+  - title: "DEGREE IN MULTIMEDIA ENGINEERING"
+    subtitle: "School of Engineering (ETSE), Universidad de Valencia"
+    img: /assets/images/uv.jpeg
+    date-start: 2014-09-01
+    date-end: 2019-06-01
+    excerpt: "This degree provided a multidisciplinary approach where I was trained both as a computer engineer and as an audiovisual technician. Great impact on the knowledge of advanced programming but also learning about procedural animations, apps design, SQL, web development or GPU programming among others."
