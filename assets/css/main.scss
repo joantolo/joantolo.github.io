@@ -208,6 +208,32 @@ $navicon-link-color-hover: $primary-color !default;
   }
 }
 
+.custom-contact {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  .custom-contact-wrap {
+    font-weight: 100;
+    font-size: 3em;
+    div {
+      padding-bottom: 0.5em;
+    }
+    a {
+      text-decoration-line: none;
+      font-size: 0.5em;
+      font-weight: 900;
+      padding: 0.7em;
+      border: solid 2px $primary-color;
+      display: inline-block;
+      transition: transform 0.2s ease;
+      &:hover {
+        text-decoration-line: none !important;
+        transform: translateY(10px);
+      }
+    }
+  }
+}
+
 .page__footer a:hover {
   color: $primary-color !important;
 }
