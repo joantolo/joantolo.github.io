@@ -1,6 +1,6 @@
 main:
   - title: "posts"
-    url: /posts/
+    url: /posts
   - title: "story"
     url: /story/
   - title: "experience"
