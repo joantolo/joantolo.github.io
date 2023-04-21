@@ -1,14 +1,31 @@
 .custom-posts-list {
+  .list__item {
+    margin: 5.2em 0 !important;
+    &:first-child {
+      margin-top: 2.5em !important;
+    }
+    &:last-child {
+      margin-bottom: 2.5em !important;
+    }
+  }
   .archive__item-title {
-    margin-top: 2.5em !important;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
     a {
       font-size: 1.2em !important;
       text-decoration: underline !important;
     }
   }
-  .page__meta * { // Subitle
-    font-size: 0.7em !important;
-    color: mix($background-color, white, 40%) !important;
+  p.page__meta {
+    font-family: $serif !important;
+    font-size: 0.8em !important;
+    line-height: 0 !important;
+    padding: 1.3em 0 !important;
+    margin: 0 !important;
+    color: white;
+    .far {
+      display: none !important;
+    }
   }
   p.archive__item-excerpt {
     font-size: 0.8em !important;
@@ -18,9 +35,17 @@
   // Formatting buttons
   .pagination * {
     border: none !important;
-  }
-  .pagination .current {
-    color: $primary-color !important;
-    background-color: transparent !important;
+    font-size: 1em !important;
+    font-family: $serif !important;
+    &:hover {
+      text-decoration-line: none !important;
+    }
+    .current {
+      color: $primary-color !important;
+      background-color: transparent !important;
+    }
+    li:first-child a {
+      padding-left: 0 !important;
+    }
   }
 }
