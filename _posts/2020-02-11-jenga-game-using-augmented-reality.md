@@ -1,6 +1,6 @@
 ---
 title: "Jenga game using augmented reality"
-date: 2019-02-11
+date: 2020-02-11
 youtube: "https://www.youtube.com/embed/fTGVCOInLuY"
 github: "https://github.com/joantolo/jenga-augmented-reality"
 tags:
