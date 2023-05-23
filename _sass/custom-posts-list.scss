@@ -48,4 +48,16 @@
       padding-left: 0 !important;
     }
   }
+  @media (max-width: 768px) {
+    .archive__item-title {
+      font-size: 1.5em !important;
+      padding-right: 1em !important;
+    }
+    p.page__meta {
+      font-size: 1em !important;
+    }
+    p.archive__item-excerpt {
+      font-size: 1em !important;
+    }
+  }
 }
