@@ -15,4 +15,14 @@
     font-size: 1.7rem !important;
     line-height: 1.8em !important;
   }
+  @media (max-width: 768px) {
+    #main {
+      max-width: 97% !important;
+      margin-top: 7rem !important;
+    }
+    .page {
+      width: 100% !important;
+      padding-right: 0 !important;
+    }
+  }
 }

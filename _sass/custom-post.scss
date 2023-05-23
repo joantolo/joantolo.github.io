@@ -94,4 +94,29 @@
   a:hover {
     color: $primary-color !important;
   }
+  @media (max-width: 768px) {
+    #main {
+      max-width: 97% !important;
+      margin-top: 5rem !important;
+    }
+    .page__title {
+      font-size: 2.0em;
+      margin-bottom: 2vw !important;
+    }
+    .page__taxonomy {
+      margin-bottom: 2vw !important;
+      font-size: 1.2em;
+    }
+    .page__date {
+      margin-bottom: 3vw !important;
+      font-size: 1.2em;
+    }
+    .page__content {
+      font-size: 1.3em;
+      line-height: 1.9em;
+    }
+    .masthead {
+      background-image: linear-gradient(#131313FF 0%, #131313CC 60%, #13131300 100%) !important;
+    }
+  }
 }

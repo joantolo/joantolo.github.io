@@ -7,4 +7,9 @@
     padding-bottom: 3em;
     margin: auto;
   }
+  @media (max-width: 768px) {
+    .custom-home-wrap {
+      font-size: 3.5rem !important;
+    }
+  }
 }
