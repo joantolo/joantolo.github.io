@@ -5,7 +5,7 @@ main:
     img: /assets/images/suse.jpeg
     date-start: 2021-11-01
     date-end: Present
-    excerpt: "Collaborating in open source projects like FreeRDP and GNOME. Maintainer of graphics stack packages. Working with the Wayland ecosystem and Mesa."
+    excerpt: "Collaborating in open source projects like FreeRDP and GNOME. Maintainer of graphics stack packages. Working with the Wayland ecosystem."
 
   - title: "JUNIOR RESEARCHER"
     subtitle: "Multimodal Simulation Lab (MSLab)"
