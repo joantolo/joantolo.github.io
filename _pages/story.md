@@ -3,10 +3,10 @@ permalink: /story/
 title: "MY STORY"
 ---
 Hello there!<br />
-I'm Joan. I was born and raised in Alicante in a loving and caring environment 🥰. While I was studying in high school I enrolled a rowing club and won some national championships 🚣.
+I'm Joan, a software engineer with a background in multimedia engineering and computer graphics 🤓.
 
-I moved to Valencia to study a degree in multimedia engineering. Then I discovered the awesome world of programming 🖥 and I became very interested in the computer graphics field 🤓.
+My academic journey took me from Valencia, where I completed my degree in multimedia engineering, to Madrid 🚗 where I earned an MSc in computer graphics, virtual reality, and games with honors. My master's thesis was later published as an academic paper 🏅.
 
-When I finished my degree I went to Madrid 🚗 to expand my knowledge in the computer graphics field studying a MSc in computer graphics, virtual reality and games. I had a lot of fun and when I finished my final thesis (with honors) it ended beeing a paper 🏅.
+I actively contribute to open-source projects and constantly seek to expand my knowledge in system programming and Linux technologies 👨‍💻. My technical interests cover computer graphics, real-time simulations and desktop environments.
 
 I'm also very interested in cooking 👨‍🍳 and doing sports. And I love practicing meditation to be more aware of the present moment 🧘‍♂️. 
